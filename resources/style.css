@@ -130,6 +130,7 @@ html {
 .left-side span {
   color: blue;
   font-size: 12px;
+
 }
 
 .right-side {
@@ -190,16 +191,142 @@ html {
   object-fit: cover;
 }
 
+/* third banner */
+
+.banner3 {
+  display: flex;
+  height: 56rem;
+  width:  auto;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgrey;
+  margin-top: 2.5rem;
+}
+
+.banner3 h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 2.25rem;
+}
+
+.classes {
+  display: flex;
+  height: 50rem;
+  width: 75rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex-shrink: 1;
+
+}
+
+.classes img {
+  width: 20rem;
+  height: auto;
+
+}
+
+.classes > div {
+  background-color: white;
+  width: 20rem;
+  height: 20rem;
+  padding: .5rem;
+}
+
+.classes h2 {
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+}
+
+.classes span {
+  font-style: oblique;
+}
+
+.classes p {
+  padding-top: .5rem;
+}
+
+/* fourth banner */
+
+.thesis {
+  display: flex;
+  padding-top: 2rem;
+}
+
+.thesis h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  z-index: 2;
+  color: red;
+}
+
+.left-column {
+  width: 45%;
+  padding-left: 7rem;
+  margin-right: 1rem;
+}
+
+.left-column video {
+  max-height: 100%;
+  max-width: 100%;
+  padding-top: .5rem;
+}
+
+.fisma {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 1rem;
+  background-color: lightgrey;
+  margin-top: .50rem;
+}
+
+.now-then {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 1rem;
+
+}
+
+.now-then-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.fisma-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.fisma img {
+  padding: .5rem;
+  object-fit: cover;
+}
+
+.now-then img {
+  padding: .5rem;
+  object-fit: cover;
+}
+
+.banner4 h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 2.25rem;
+}
 
 
 
 
 
-
-
-
-
-/
 /
 /
 /
