@@ -72,6 +72,7 @@ html {
 .banner0 .column-right h1 {
   font-weight: bold;
   font-size: 2rem;
+  color: #ff0000;
 }
 
 .banner0 .column-right p {
@@ -321,6 +322,15 @@ html {
   font-weight: bold;
   font-size: 2rem;
   padding-top: 2.25rem;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+  border-top: thick double #ff0000;
 }
 
 
